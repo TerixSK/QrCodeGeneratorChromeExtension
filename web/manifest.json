@@ -1,0 +1,13 @@
+{
+    "name": "QR Code Extension",
+    "description": "QR Code Extension",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/extension_icon.png"
+    },
+    "manifest_version": 3
+}
